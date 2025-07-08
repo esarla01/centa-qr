@@ -8,10 +8,7 @@ import { useSearchParams } from "next/navigation";
 
 export default function FaultReporting() {
   const { t } = useTranslation();
-  const type = useSearchParams().get("type")?.toLowerCase() || "";
-  const subcategory = useSearchParams().get("subcategory")?.toLowerCase() || "";
-  const product = useSearchParams().get("product")?.toLowerCase() || "";
-
+    
   const baseBtn =
     "contact-btn flex items-center gap-2 px-4 py-3 sm:px-6 sm:py-4 rounded-xl shadow transition hover:text-white font-medium text-sm sm:text-base md:text-lg justify-center w-full max-w-xs sm:max-w-sm md:max-w-md";
 
