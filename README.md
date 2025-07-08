@@ -9,3 +9,8 @@ Built with Next.js App Router, Tailwind CSS, and localized using react-i18next.
 📄 Direct access to PDF manuals hosted in /public
 🎥 Embedded training/tutorial videos (YouTube)
 ☎️ Quick contact options via phone, WhatsApp, and email
+
+📂 Project Structure
+/public: Contains static assets and PDF manuals (e.g., door-detectors.pdf, overload-manual.pdf)
+/app: Main application routes using App Router
+/components: Shared UI components like <Header /> and <I18nProvider />
