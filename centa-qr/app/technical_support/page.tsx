@@ -4,7 +4,6 @@ import { Header } from "@/components/header";
 import Image from "next/image";
 import React from "react";
 import { useTranslation } from "@/node_modules/react-i18next";
-import { useSearchParams } from "next/navigation";
 
 export default function FaultReporting() {
   const { t } = useTranslation();
