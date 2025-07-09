@@ -34,7 +34,7 @@ export const Header = ({ backUrl,  showBackButton = true }: HeaderProps) => {
                 router.back();
               }                  
             }} 
-          className="bg-gray-200 p-2 rounded-full shadow hover:bg-gray-100 transition flex items-center gap-1"
+          className="bg-gray-200 p-2 rounded-full shadow hover:bg-gray-100 transition flex items-center gap-1 h-10"
         >
           <FaArrowLeftLong className="text-gray-600 text-lg" />
           <span className="text-gray-700 text-sm font-medium">{t("back")}</span>
@@ -46,7 +46,7 @@ export const Header = ({ backUrl,  showBackButton = true }: HeaderProps) => {
       <select
         value={i18n.language} // no need to use separate state
         onChange={handleLangChange}
-        className="bg-gray-200 border border-gray-300 rounded-lg px-2 py-2 text-sm text-gray-700 shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
+        className="bg-gray-200 border border-gray-300 rounded-lg px-2 py-2 text-sm text-gray-700 shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 h-10" 
       >
         <option value="tr">Türkçe</option>
         <option value="en">English</option>
