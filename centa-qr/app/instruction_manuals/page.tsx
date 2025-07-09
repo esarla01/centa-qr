@@ -60,7 +60,7 @@ export default function Home() {
           </div>
 
           {/* Welcome Message */}
-          <h1 className="text-lg sm:text-xl md:text-2xl font-semibold">{t("instruction_manuals")}</h1>
+          <h1 className="text-lg sm:text-xl md:text-2xl font-semibold text-gray-800">{t("instruction_manuals")}</h1>
 
           {/* Description */}
           <p className="text-sm sm:text-base md:text-lg text-gray-700">{t("select_product")}</p>
