@@ -34,7 +34,7 @@ export default function Home() {
   const renderProductButton = (label: string) => (
     <button
       onClick={() => setType(label)}
-      className={`w-full bg-gray-200 rounded-xl py-3 sm:py-4 text-sm sm:text-base md:text-lg font-medium border-2 hover:bg-gray-300 transition ${
+      className={`w-full text-gray-800 bg-gray-200 rounded-xl py-3 sm:py-4 text-sm sm:text-base md:text-lg font-medium border-2 hover:bg-gray-300 transition ${
         type === label ? "border-gray-700" : "border-transparent"
       }`}
     >
